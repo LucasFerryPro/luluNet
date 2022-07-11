@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className={styles.grid}>
             <h2>CroustiFromage (raté)<br></br></h2>
-            <ReactPlayer url='https://youtu.be/vFeGWLloG9g'controls/>
+            <ReactPlayer url='https://youtu.be/vFeGWLloG9g'controls className={styles.reactPlayer}/>
             <p><br></br>Première vidéo pour ma petite lulu, oui je sais le ruban bleu en plein milieu est pas beau mais j'avais que ça...</p>
           <Link href={'/'}>
             <a className={styles.card}>
