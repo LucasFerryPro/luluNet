@@ -17,18 +17,18 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href={'/'}>
+          <Link href={'/blog/lulu'}>
             <a className={styles.card}>
-              <h2>Mon site</h2>
+              <h2>Cooking with Lulu</h2>
               <p>
-                ca c le lien qui va vers mon site
+                Là je répertorie toute mes vidéos de cuisine! 
               </p>
             </a>
           </Link>
           <Link href={'/blog/important'}>
             <a className={styles.card}>
-              <h2>Important &rarr;</h2>
-              <p>Lien vers les autres liens importants</p>
+              <h2>Liens importants</h2>
+              <p>Retrouvez la les différents lien qui me seront utiles pour faire le site!</p>
             </a>
           </Link>
         </div>
